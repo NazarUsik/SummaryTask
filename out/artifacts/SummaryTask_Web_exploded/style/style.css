@@ -1,0 +1,153 @@
+* {
+    font-family: Direct, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    font-size: 17px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#menuBtn {
+    transition: 0.3s;
+    box-shadow: 0 0 0 1px rgba(60, 60, 60, 0.1), 0 5px 10px 0 rgba(163, 163, 163, 0.65);
+    line-height: 30px;
+    background-color: #1F294D;
+    border-radius: 5px;
+    color: #fff;
+    float: left;
+    height: 1px;
+    margin: 18px 20px;
+    padding: 7px 14px 33px 14px;
+}
+
+
+.logoImg {
+    margin: 12px 0 12px 450px;
+    padding: 10px 20px;
+}
+
+
+.loginBtn {
+    transition: 0.3s;
+    box-shadow: 0 0 0 1px rgba(60, 60, 60, 0.1), 0 5px 10px 0 rgba(163, 163, 163, 0.65);
+    font-size: 16px;
+    line-height: 32px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #000;
+    float: right;
+    height: 1px;
+    margin: 18px 10px;
+    padding: 3px 15px 33px 15px;
+    text-decoration: unset;
+    width: auto;
+}
+
+.translate_button {
+    transition: 0.3s;
+    box-shadow: 0 0 0 1px rgba(60, 60, 60, 0.1), 0 5px 10px 0 rgba(163, 163, 163, 0.65);
+    font-size: 16px;
+    line-height: 32px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #000;
+    float: right;
+    height: 1px;
+    text-decoration: unset;
+    width: auto;
+    margin: 18px 3px;
+    padding: 3px 15px 33px 15px;
+}
+
+.logoutBtn {
+    padding: 3px 13px 33px 13px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .overlay a {
+        font-size: 17px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+}
+
+#menuBtn:hover {
+    cursor: pointer;
+    margin: 18px;
+    padding: 7px 16px 33px 16px;
+}
+
+.translate_button:hover {
+    cursor: pointer;
+    margin: 18px 1px;
+    padding: 3px 17px 33px 17px;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+    margin: 18px 8px;
+    padding: 3px 17px 33px 17px;
+
+}
+
+.logoutBtn:hover {
+    padding: 3px 15px 33px 15px;
+}
