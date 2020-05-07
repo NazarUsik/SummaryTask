@@ -1,7 +1,6 @@
 package ua.nure.usik.SummaryTask4.servlet;
 
 import javafx.util.Pair;
-import sun.security.krb5.internal.PAData;
 import ua.nure.usik.SummaryTask4.db.DBManager;
 import ua.nure.usik.SummaryTask4.db.connection.MyUtils;
 import ua.nure.usik.SummaryTask4.db.entity.*;
