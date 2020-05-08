@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d17dd20f-cc2f-4d5d-b231-1ae195609b63" name="Default Changelist" comment="">
+    <list default="true" id="d17dd20f-cc2f-4d5d-b231-1ae195609b63" name="Default Changelist" comment="lib commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -323,16 +323,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:FinalDB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:FinalDB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@1f7bc0b5" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -381,12 +372,31 @@
       <workItem from="1588497660158" duration="58487000" />
       <workItem from="1588657560148" duration="11105000" />
       <workItem from="1588873197722" duration="79000" />
-      <workItem from="1588873457298" duration="107000" />
+      <workItem from="1588873457298" duration="457000" />
     </task>
+    <task id="LOCAL-00001" summary="lib commit">
+      <created>1588951800107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588951800107</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lib commit">
+      <created>1588951846540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588951846540</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lib commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lib commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#Project_Structure" timestamp="1587575560141">
@@ -433,10 +443,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1585675074017" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1588951798498">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1588952179434">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1588951798498" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1588952179434" />
     <state width="1515" height="466" key="DebuggerActiveHint" timestamp="1587062408317">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -453,6 +463,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="591" y="348" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1586794116204" />
+    <state x="637" y="325" key="Github.ShareDialog" timestamp="1588951892480">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="637" y="325" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1588951892480" />
     <state width="1265" height="326" key="GridCell.Tab.0.bottom" timestamp="1588951745501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -537,18 +551,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="117" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1588154435045" />
-    <state x="301" y="13" key="SettingsEditor" timestamp="1588873244872">
+    <state x="301" y="13" key="SettingsEditor" timestamp="1588952089096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="301" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588873244872" />
+    <state x="301" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588952089096" />
     <state width="82" height="441" key="SqlResolveConfigurable" timestamp="1584696348724">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1584696348724" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1588951766738">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1588951944864">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1588951766738" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1588951944864" />
     <state x="659" y="327" width="322" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586350990699">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
