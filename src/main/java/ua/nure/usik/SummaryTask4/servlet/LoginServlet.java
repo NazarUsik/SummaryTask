@@ -78,6 +78,7 @@ public class LoginServlet extends HttpServlet {
                 }
             } catch (SQLException e) {
                 hasError = true;
+                e.printStackTrace();
                 errorString = bundle.getString("error.query");
             }
         }

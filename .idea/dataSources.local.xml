@@ -18,5 +18,11 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="heroku_DB" uuid="3cce5373-e124-4b22-aa95-7307d4feebea">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>b21eecb2f5c2b8</user-name>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>

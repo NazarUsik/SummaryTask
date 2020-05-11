@@ -46,10 +46,10 @@ public final class SQLQuery {
 
 
     public static final String SQL_FIND_USER_BY_EMAIL_AND_PASS =
-            "SELECT * FROM  final_project_db.user us WHERE us.email = ? AND us.password = ?;";
+            "SELECT * FROM  user us WHERE us.email = ? AND us.password = ?;";
 
     public static final String SQL_FIND_USER_BY_EMAIL =
-            "SELECT * FROM  final_project_db.user us WHERE us.email = ?;";
+            "SELECT * FROM  user us WHERE us.email = ?;";
 
     public static final String SQL_GET_LAST_CARRIAGE_NUMBER_BY_TRAIN =
             "select carriage_number " +

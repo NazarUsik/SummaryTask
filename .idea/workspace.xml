@@ -3,12 +3,13 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="SummaryTask:Web exploded" />
-      <artifact name="Ticli" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d17dd20f-cc2f-4d5d-b231-1ae195609b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/usik/SummaryTask4/db/connection/MySQLConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/usik/SummaryTask4/db/connection/MySQLConnectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/nure/usik/SummaryTask4/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/nure/usik/SummaryTask4/servlet/LoginServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,26 +36,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="FinalDB" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="FinalDB" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="final_project_db: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="FinalDB" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="final_project_db: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="ticket: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="FinalDB" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="final_project_db: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="ticketslist: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -328,7 +309,16 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:heroku_DB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:heroku_DB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6da1e19" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -378,7 +368,7 @@
       <workItem from="1588657560148" duration="11105000" />
       <workItem from="1588873197722" duration="79000" />
       <workItem from="1588873457298" duration="1588000" />
-      <workItem from="1589208355988" duration="2784000" />
+      <workItem from="1589208355988" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="lib commit">
       <created>1588951800107</created>
@@ -415,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589210506786</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="comm">
+      <created>1589211634701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589211634701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,10 +432,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" key="#SQL_Resolution_Scopes/0.0.1536.864@0.0.1536.864" timestamp="1584696348771" />
-    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586763425468">
+    <state x="236" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589213352229">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586763425468" />
+    <state x="236" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1589213352229" />
     <state x="524" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589208423584">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -471,10 +468,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1585675074017" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1589210505446">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1589211633336">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589210505446" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589211633336" />
+    <state x="449" y="237" width="638" height="426" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1589212623177">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="237" width="638" height="426" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1536.864@0.0.1536.864" timestamp="1589212623177" />
     <state width="1515" height="466" key="DebuggerActiveHint" timestamp="1587062408317">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -483,10 +484,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1586282619960" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589208600547">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589212563738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589208600547" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589212563738" />
     <state x="591" y="348" key="Github.CreateGistDialog" timestamp="1586794116204">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -495,54 +496,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="637" y="325" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1588951892480" />
-    <state width="1265" height="326" key="GridCell.Tab.0.bottom" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.0.bottom" timestamp="1589213410946">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.0.center" timestamp="1588951745500">
+    <state width="1265" height="326" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589213410946" />
+    <state width="1265" height="326" key="GridCell.Tab.0.center" timestamp="1589213410946">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588951745500" />
-    <state width="1265" height="326" key="GridCell.Tab.0.left" timestamp="1588951745500">
+    <state width="1265" height="326" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589213410946" />
+    <state width="1265" height="326" key="GridCell.Tab.0.left" timestamp="1589213410946">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588951745500" />
-    <state width="1265" height="326" key="GridCell.Tab.0.right" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589213410946" />
+    <state width="1265" height="326" key="GridCell.Tab.0.right" timestamp="1589213410946">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.1.bottom" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589213410946" />
+    <state width="1265" height="326" key="GridCell.Tab.1.bottom" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.1.center" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
+    <state width="1265" height="326" key="GridCell.Tab.1.center" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.1.left" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
+    <state width="1265" height="326" key="GridCell.Tab.1.left" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.1.right" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
+    <state width="1265" height="326" key="GridCell.Tab.1.right" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.2.bottom" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
+    <state width="1265" height="326" key="GridCell.Tab.2.bottom" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.2.center" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
+    <state width="1265" height="326" key="GridCell.Tab.2.center" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.2.left" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
+    <state width="1265" height="326" key="GridCell.Tab.2.left" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
-    <state width="1265" height="326" key="GridCell.Tab.2.right" timestamp="1588951745501">
+    <state width="1265" height="326" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
+    <state width="1265" height="326" key="GridCell.Tab.2.right" timestamp="1589213410947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1265" height="326" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1588951745501" />
+    <state width="1265" height="326" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1589213410947" />
     <state width="1023" height="320" key="GridCell.Tab.5.bottom" timestamp="1585650716883">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -587,10 +588,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1584696348724" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1589210516072">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1589211637672">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589210516072" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589211637672" />
     <state x="659" y="327" width="322" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586350990699">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
