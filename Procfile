@@ -1,1 +1,1 @@
-web: java -jar target/Tickli.jar
+web: java -jar target/Tickli.w`ar
