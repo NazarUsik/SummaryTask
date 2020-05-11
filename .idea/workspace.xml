@@ -3,13 +3,12 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="SummaryTask:Web exploded" />
-      <artifact name="Tickli" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d17dd20f-cc2f-4d5d-b231-1ae195609b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/javax.transaction.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -383,7 +382,7 @@
       <workItem from="1588657560148" duration="11105000" />
       <workItem from="1588873197722" duration="79000" />
       <workItem from="1588873457298" duration="1588000" />
-      <workItem from="1589208355988" duration="5929000" />
+      <workItem from="1589208355988" duration="7081000" />
     </task>
     <task id="LOCAL-00001" summary="lib commit">
       <created>1588951800107</created>
@@ -469,7 +468,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589214920246</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="comm">
+      <created>1589215015729</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589215015729</updated>
+    </task>
+    <task id="LOCAL-00014" summary="comm">
+      <created>1589215106866</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589215106866</updated>
+    </task>
+    <task id="LOCAL-00015" summary="comm">
+      <created>1589215196131</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589215196131</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,10 +545,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1585675074017" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1589215105692">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1589216296649">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589215105692" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589216296649" />
     <state x="449" y="237" width="638" height="426" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1589212623177">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -541,10 +561,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1586282619960" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589212563738">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589216082751">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589212563738" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589216082751" />
     <state x="591" y="348" key="Github.CreateGistDialog" timestamp="1586794116204">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -637,18 +657,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="117" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1588154435045" />
-    <state x="295" y="3" key="SettingsEditor" timestamp="1589214487359">
+    <state x="295" y="3" key="SettingsEditor" timestamp="1589216137467">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="295" y="3" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589214487359" />
+    <state x="295" y="3" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589216137467" />
     <state width="82" height="441" key="SqlResolveConfigurable" timestamp="1584696348724">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1584696348724" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1589215127568">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1589215197444">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589215127568" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589215197444" />
     <state x="659" y="327" width="322" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586350990699">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

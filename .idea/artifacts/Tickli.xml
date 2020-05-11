@@ -19,6 +19,7 @@
           <element id="library" level="project" name="Maven: com.github.axet:java-flac-encoder:0.3.8" />
           <element id="library" level="project" name="Maven: org.json:json:20150729" />
         </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/web/WEB-INF/views" />
       </element>
     </root>
   </artifact>
