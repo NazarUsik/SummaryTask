@@ -1,1 +1,1 @@
-web: java -war target/Tickli.war
+web: java -jar target/Tickli.jar
