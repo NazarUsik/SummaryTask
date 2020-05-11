@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Ticli">
+    <output-path>$PROJECT_DIR$/target/</output-path>
+    <root id="archive" name="Ticli.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SummaryTask" />
+          <element id="library" level="application" name="a076d05399" />
+          <element id="library" level="application" name="bootstrap" />
+          <element id="library" level="application" name="font-awesome" />
+          <element id="library" level="application" name="jquery-latest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.15" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.github.goxr3plus:java-google-speech-api:8.0.0" />
+          <element id="library" level="project" name="Maven: com.github.axet:java-flac-encoder:0.3.8" />
+          <element id="library" level="project" name="Maven: org.json:json:20150729" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

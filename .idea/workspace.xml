@@ -3,12 +3,24 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="SummaryTask:Web exploded" />
+      <artifact name="Ticli" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d17dd20f-cc2f-4d5d-b231-1ae195609b63" name="Default Changelist" comment="lib commit">
+    <list default="true" id="d17dd20f-cc2f-4d5d-b231-1ae195609b63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Ticli.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.jms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.resource.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +100,10 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="generatedSourcesFolder" value="GENERATED_SOURCE_FOLDER" />
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -110,7 +125,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/javax.transaction.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -118,29 +133,31 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.side.proportion" value="0.2091954" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ua.nure.usik.SummaryTask4.db" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\epamCourse\SummaryTask\src\main\resources\enum" />
-      <recent name="D:\epamCourse\SummaryTask\src\main\resources" />
-      <recent name="D:\epamCourse\SummaryTask\src\main\resources\com.example.i18n" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ua.nure.usik.SummaryTask4.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitRepo\SummaryTask" />
       <recent name="D:\epamCourse\SummaryTask\src\main\java\res" />
       <recent name="D:\epamCourse\SummaryTask\web\WEB-INF\lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ua.nure.usik.SummaryTask4.utils" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitRepo\SummaryTask\web\WEB-INF\lib" />
+      <recent name="D:\epamCourse\SummaryTask\src\main\resources\enum" />
+      <recent name="D:\epamCourse\SummaryTask\src\main\resources" />
+      <recent name="D:\epamCourse\SummaryTask\src\main\resources\com.example.i18n" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.51">
@@ -372,7 +389,8 @@
       <workItem from="1588497660158" duration="58487000" />
       <workItem from="1588657560148" duration="11105000" />
       <workItem from="1588873197722" duration="79000" />
-      <workItem from="1588873457298" duration="457000" />
+      <workItem from="1588873457298" duration="1588000" />
+      <workItem from="1589208355988" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="lib commit">
       <created>1588951800107</created>
@@ -388,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588951846540</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lib commit">
+      <created>1588952208864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588952208864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,14 +436,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586763425468" />
-    <state x="524" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588084993650">
+    <state x="524" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589208423584">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="524" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1588084993650" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1588667950954">
+    <state x="524" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1589208423584" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1589040089569">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1588667950954" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1589040089569" />
     <state x="400" y="121" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584696139858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -443,10 +468,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1585675074017" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1588952179434">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1588952207419">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1588952179434" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1588952207419" />
     <state width="1515" height="466" key="DebuggerActiveHint" timestamp="1587062408317">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -455,10 +480,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1586282619960" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1588873241701">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589208600547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588873241701" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589208600547" />
     <state x="591" y="348" key="Github.CreateGistDialog" timestamp="1586794116204">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -551,18 +576,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="117" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1588154435045" />
-    <state x="301" y="13" key="SettingsEditor" timestamp="1588952089096">
+    <state x="295" y="3" key="SettingsEditor" timestamp="1589209967416">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="301" y="13" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588952089096" />
+    <state x="295" y="3" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589209967416" />
     <state width="82" height="441" key="SqlResolveConfigurable" timestamp="1584696348724">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1584696348724" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1588951944864">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1588952215007">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1588951944864" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1588952215007" />
     <state x="659" y="327" width="322" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586350990699">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
