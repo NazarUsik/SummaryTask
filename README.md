@@ -22,4 +22,14 @@
 
 ### If the user is registered in the system, then he should be able to buy a ticket for the selected train to the selected car (subject to availability).
 
+
+## The result of the work
+
+![Home](pictures/home.png)
+![Login](pictures/login.png)
+![UserAcc](pictures/user_acc.png)
+![Search](pictures/search.png)
+![Route page](pictures/route_page.png)
+![Admin](pictures/admin.png)
+
 >`The program was written on 04/26/20`
