@@ -8,19 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d17dd20f-cc2f-4d5d-b231-1ae195609b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Ticli.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.jms.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.resource.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,7 +378,7 @@
       <workItem from="1588657560148" duration="11105000" />
       <workItem from="1588873197722" duration="79000" />
       <workItem from="1588873457298" duration="1588000" />
-      <workItem from="1589208355988" duration="1892000" />
+      <workItem from="1589208355988" duration="2784000" />
     </task>
     <task id="LOCAL-00001" summary="lib commit">
       <created>1588951800107</created>
@@ -413,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588952208864</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="comm">
+      <created>1589210479009</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589210479009</updated>
+    </task>
+    <task id="LOCAL-00005" summary="comm">
+      <created>1589210506786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589210506786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +423,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lib commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lib commit" />
+    <MESSAGE value="comm" />
+    <option name="LAST_COMMIT_MESSAGE" value="comm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#Project_Structure" timestamp="1587575560141">
@@ -468,10 +471,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1585675074017" />
-    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1589210476738">
+    <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1589210505446">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589210476738" />
+    <state x="393" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589210505446" />
     <state width="1515" height="466" key="DebuggerActiveHint" timestamp="1587062408317">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -576,18 +579,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="117" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1588154435045" />
-    <state x="295" y="3" key="SettingsEditor" timestamp="1589209967416">
+    <state x="295" y="3" key="SettingsEditor" timestamp="1589211610051">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="295" y="3" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589209967416" />
+    <state x="295" y="3" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589211610051" />
     <state width="82" height="441" key="SqlResolveConfigurable" timestamp="1584696348724">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1584696348724" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1589210482384">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1589210516072">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589210482384" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1589210516072" />
     <state x="659" y="327" width="322" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586350990699">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
