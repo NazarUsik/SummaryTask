@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar --port $PORT ./target/Tickli.war
+web: java $JAVA_OPTS -jar ./target/Tickli.war --port $PORT
